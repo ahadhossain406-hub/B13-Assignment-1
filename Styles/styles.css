@@ -166,10 +166,9 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    border: 1px solid black;
     padding: 12px;
     border-radius: 5px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.404)
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.09)
     
 }
 .main-card .card h3{
@@ -180,4 +179,91 @@
     font-size: 16px;
     line-height: 20px;
     color: #627382;
+}
+
+.knowledge .knowledge-container{
+    width: 1360px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px;
+    gap: 60px;
+
+}
+
+.knowledge-container .knowledge-1 img{
+    width: 600px;
+    height: 600px;
+
+}
+.knowledge-container .knowledge-2 h4{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #469165;
+} 
+.knowledge-container .knowledge-2 h2{
+    color: #001931;
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 16px;
+}
+.knowledge-container .knowledge-2 p{
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 16px;
+}
+.knowledge-container .knowledge-2 .p1{
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #001931;
+}
+.early .early-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #F7F6F2;
+    margin: 0px 120px 120px 120px;
+    width: 1360px;
+    height: 384px;
+}
+.early .early-container .early-access h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.early .early-container .early-access p{
+    color: #627382;
+    font-size: 16px;
+    line-height: 24px;
+}
+.early .early-container .early-access h4{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    font-weight: 300;
+    margin-top: 14px;
+}
+.early .early-container .early-access button{
+    width: 194px;
+    height: 52px;
+    color: white;
+    background-color: #469165;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;             
+    align-items: center;        
+    justify-content: center;   
+    gap: 8px;                   
+    padding: 0 16px;
+    margin: 0 543px 36px;
+}
+
+.early-container .early-access button:hover{
+    background-color: brown;
 }
