@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .header-container{
     display: flex;
     justify-content: space-between;
@@ -5,7 +10,6 @@
     justify-items: center;
     text-align: center;
     margin-top: 16px;
-    border: 1px solid black;
     padding: 36px 120px;
 }
 
@@ -41,7 +45,7 @@
     max-width: 1600px;
     margin-top: 20px;
     padding: 115.5px 120px 220px;
-    background-image: url("/assets/hero-bg.png");
+    background-image: url("../assets/hero-bg.png");
     margin: 0 auto;
     justify-content: center;
     align-items: center;
