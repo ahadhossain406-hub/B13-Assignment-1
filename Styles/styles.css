@@ -34,6 +34,9 @@
     cursor: pointer;
     border-radius: 5px;
 }
+.header-button .btn1:hover{
+    background-color: brown;
+}
 .section{
     max-width: 1600px;
     margin-top: 20px;
@@ -48,7 +51,7 @@
     padding: 0px 295px;
 }
 .section .section-container .info h2{
-    font-size: 40px;
+    font-size: 50px;
 
 }
 .section .section-container .info p{
@@ -56,4 +59,59 @@
     font-size: 18px;
     color: #FFFFFF;
     line-height: 24px;
+}
+.section .section-container .info button{
+    padding: auto;
+    width: 229px;
+    height: 35px;
+    font-size: 15px;
+    color: #469165;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.info button:hover{
+    background-color: yellowgreen;
+}
+
+.section-container .button{
+    
+    margin-top: 32px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.button .button-1:hover{
+    background-color:brown;
+}
+.button .button-2:hover{
+    background-color: brown;
+}
+.button .button-1{
+    width: 251px;
+    height: 52px;
+    color: white;
+    background-color: #469165;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 16px;
+}
+.button .button-2{
+    width: 198px;
+    height: 52px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    gap: 8px;
+
 }
