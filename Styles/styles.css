@@ -199,10 +199,13 @@
 }
 .knowledge-container .knowledge-2 h4{
     font-size: 16px;
-    line-height: 20px;
-    font-weight: 400;
-    color: #469165;
-} 
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1360px;
+    width: 100%;
+    margin: 0;   
+}
+
 .knowledge-container .knowledge-2 h2{
     color: #001931;
     font-size: 48px;
@@ -266,4 +269,45 @@
 
 .early-container .early-access button:hover{
     background-color: brown;
+}
+
+.footer{
+    background-color: #001931;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container{
+    max-width: 1360px;
+    width: 100%;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;  
+    gap: 32px;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .footer-container .footer-social{
+    color: white;
+}
+.footer .footer-container .footer-social a{
+    text-decoration: none;
+    color: white;
+}
+.footer-divider{
+    border: none;
+    height: 1px;
+    background-color: rgba(255,255,255,0.15);
+    margin: 24px 0;
+}
+
+.footer-copy{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    line-height: 24px;
 }
